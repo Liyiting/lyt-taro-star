@@ -1,8 +1,9 @@
 import React, { Component } from 'react'
-import { View, Button, Text } from '@tarojs/components'
+import { View } from '@tarojs/components'
 import { connect } from 'react-redux'
 
 import { add, minus, asyncAdd } from '../../actions/counter'
+import AtButton from 'taro-ui'
 
 import './index.scss'
 
@@ -35,6 +36,8 @@ class Index extends Component {
     return (
       <View className='index'>
         <View>RESUME</View>
+        {/* <AtAvatar image='https://jdc.jd.com/img/200'></AtAvatar> */}
+        <AtButton type='primary'>按钮文案</AtButton>
       </View>
     )
   }
