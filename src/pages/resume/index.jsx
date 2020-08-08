@@ -1,12 +1,10 @@
 import React, { Component } from 'react'
-import { View } from '@tarojs/components'
 import { connect } from 'react-redux'
+import { View, Button, Text } from '@tarojs/components'
 
 import { add, minus, asyncAdd } from '../../actions/counter'
-import AtButton from 'taro-ui'
-
+import { AtButton } from 'taro-ui'
 import './index.scss'
-
 
 @connect(({ counter }) => ({
   counter
@@ -35,9 +33,8 @@ class Index extends Component {
   render () {
     return (
       <View className='index'>
-        <View>RESUME</View>
-        {/* <AtAvatar image='https://jdc.jd.com/img/200'></AtAvatar> */}
-        <AtButton type='primary'>按钮文案</AtButton>
+        resume
+        <AtButton>at button</AtButton>
       </View>
     )
   }

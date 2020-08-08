@@ -1,6 +1,6 @@
 const config = {
-  projectName: 'lyt-taro-stars',
-  date: '2020-7-4',
+  projectName: 'myApp',
+  date: '2020-8-8',
   designWidth: 750,
   deviceRatio: {
     640: 2.34 / 2,
@@ -43,7 +43,6 @@ const config = {
     }
   },
   h5: {
-    esnextModules: ['taro-ui'],
     publicPath: '/',
     staticDirectory: 'static',
     postcss: {
