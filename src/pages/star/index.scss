@@ -1,0 +1,51 @@
+@import "~taro-ui/dist/style/components/tab-bar.scss";
+@import "~taro-ui/dist/style/components/badge.scss";
+@import "~taro-ui/dist/style/components/float-layout.scss";
+@import "~taro-ui/dist/style/components/fab.scss";
+@import "~taro-ui/dist/style/components/radio.scss";
+@import "~taro-ui/dist/style/components/icon.scss";
+@import "~taro-ui/dist/style/components/flex.scss";
+
+.index {
+  flex-direction: column;
+  width: 100%;
+}
+
+.fab-button {
+  position: fixed;
+  right: 0;
+  top: 0;
+}
+
+.day {}
+
+.day-all {
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+  background-color: aquamarine;
+  border-radius: 50%;
+  color: #fff;
+  text-align: center;
+  line-height: 300px;
+  font-size: 100px;
+}
+
+.day-grid.at-row {
+  text-align: center;
+  border: 1px solid aquamarine;
+}
+
+.day-grid .at-col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.grid-ball {
+  height: 150px;
+  width: 150px;
+  line-height: 150px;
+  border-radius: 50%;
+  background-color: aquamarine;
+}
